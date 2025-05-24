@@ -1,4 +1,4 @@
-# Write a program in C that takes two points p1(x1,y1) and p2(x2,y2) and finds the distance and slope between the points.
+# Write a script that takes two points p1(x1,y1) and p2(x2,y2) and finds the distance and slope between the points.
 echo -n "Enter coordinates of point 1 (x1 y1):"
 read x1
 read y1

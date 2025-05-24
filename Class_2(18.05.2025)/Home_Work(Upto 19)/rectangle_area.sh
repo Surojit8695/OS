@@ -1,4 +1,4 @@
-#Write a program in C that takes the 2 sides of the Rectangle and finds the area and perimeter.
+#Write a script that takes the 2 sides of the Rectangle and finds the area and perimeter.
 echo -n "Enter the height:"
 read height
 echo -n "Enter the width:"
