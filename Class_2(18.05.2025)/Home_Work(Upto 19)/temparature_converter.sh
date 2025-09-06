@@ -1,4 +1,4 @@
-#write a script that will convert the temparature from celcious to fahrenheit
+#write a program that will convert the temparature from celcious to fahrenheit
 #F = (9/5 * C) + 32
 echo -n "Enter the temparatue in celcious:"
 read celcious

@@ -1,4 +1,3 @@
-# this script take two number from user and will add it
 echo -n "Enter first number:" #if we give -n then there will be no enter taken by default
 read x
 echo -n "Enter second number:"

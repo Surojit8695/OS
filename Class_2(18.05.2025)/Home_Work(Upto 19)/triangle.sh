@@ -1,4 +1,4 @@
-# Write a script that takes the 3 sides of the Triangle and finds the area and perimeter.
+# Write a program in C that takes the 3 sides of the Triangle and finds the area and perimeter.
 #!/bin/bash
 
 echo -n "Enter side 1: "

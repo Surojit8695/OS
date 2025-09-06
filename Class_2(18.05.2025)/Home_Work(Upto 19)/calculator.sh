@@ -1,4 +1,4 @@
-# Write script that  take two numbers and find the addition,subtraction,multiplication and division and print the result
+# Write a program to take two numbers and find the addition,subtraction,multiplication and division and print the result
 echo -n "Enter the first number:"
 read x
 echo -n "Enter the second number:"
