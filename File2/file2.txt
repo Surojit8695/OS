@@ -1,0 +1,3 @@
+exam results are pending
+we are learning shell
+linux is powerful

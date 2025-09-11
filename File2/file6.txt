@@ -1,0 +1,3 @@
+First line same
+different middle
+Last line same
