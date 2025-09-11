@@ -14,7 +14,9 @@ read y3
 area=$(echo "scale=2; 0.5 * ($x1*($y2 - $y3) + $x2*($y3 - $y1) + $x3*($y1 - $y2))" | bc) #formula 
 
 echo "$area"
+#this is because the if area =5.5 it converts it to 5 bcz loop compare with integer number not fractionnal
 abs_area=$(echo "$area / 1" | bc)
+echo "abs_area"
 
 if [ $abs_area -eq 0 ]
 then

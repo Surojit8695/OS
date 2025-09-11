@@ -1,0 +1,3 @@
+Product Id | Product Name | Price | Quantity
+277568 | Bananna | 75650 | 140000
+54427 | Apple | 756000 | 1200000
