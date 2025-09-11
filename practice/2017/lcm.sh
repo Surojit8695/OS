@@ -1,24 +1,23 @@
 #!/bin/bash
 
-# Function to find GCD
-gcd() {
-    a=$1
-    b=$2
-    while [ $b -ne 0 ]
-    do
-        temp=$b
-        b=$((a % b))
-        a=$temp
-    done
-    echo $a
-}
-
-# Function to find LCM of two numbers
+# Function to find LCM of two numbers without using GCD
 lcm_two() {
     a=$1
     b=$2
-    g=$(gcd $a $b)
-    echo $(( (a * b) / g ))
+    # Set max to the greater of a and b
+    if [ $a -gt $b ]; then
+        max=$a
+    else
+        max=$b
+    fi
+
+    while true; do
+        if (( max % a == 0 && max % b == 0 )); then
+            echo $max
+            return
+        fi
+        ((max++))
+    done
 }
 
 # Main program
@@ -26,8 +25,8 @@ echo -n "Enter numbers ofterm n: "
 read n
 for((i=0;i<n;i++))
 do
-	echo -n "A[$i]="
-	read arr[$i]
+    echo -n "A[$i]="
+    read arr[$i]
 done
 
 lcm=${arr[0]}
